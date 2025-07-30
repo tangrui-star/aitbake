@@ -27,15 +27,15 @@
           <div class="project-meta">
             <span class="meta-item">
               <span class="meta-icon">👁️</span>
-              {{ projectData.views }} 浏览
+              {{ projectData.views }} 
             </span>
             <span class="meta-item">
               <span class="meta-icon">⭐</span>
-              {{ projectData.stars }} 星标
+              {{ projectData.stars }} 
             </span>
             <span class="meta-item">
               <span class="meta-icon">🔄</span>
-              {{ projectData.forks }} 复刻
+              {{ projectData.forks }} 
             </span>
           </div>
         </div>
@@ -839,6 +839,7 @@ export default {
   flex-direction: column;
   gap: 12px;
   margin-top: 24px;
+  margin-bottom: 80px; /* 为底部导航栏留出空间 */
 }
 
 .btn {

@@ -27,15 +27,15 @@
           <div class="tool-meta">
             <span class="meta-item">
               <span class="meta-icon">👁️</span>
-              {{ toolData.views }} 使用
+              {{ toolData.views }} 
             </span>
             <span class="meta-item">
               <span class="meta-icon">⭐</span>
-              {{ toolData.rating }} 评分
+              {{ toolData.rating }} 
             </span>
             <span class="meta-item">
               <span class="meta-icon">📥</span>
-              {{ toolData.downloads }} 下载
+              {{ toolData.downloads }} 
             </span>
           </div>
         </div>
@@ -1062,6 +1062,7 @@ export default {
   flex-direction: column;
   gap: 12px;
   margin-top: 24px;
+  margin-bottom: 80px; /* 为底部导航栏留出空间 */
 }
 
 .btn {
