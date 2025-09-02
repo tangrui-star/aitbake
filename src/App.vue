@@ -93,5 +93,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
   background-color: #f5f5f5;
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  overflow-x: hidden;
+  position: relative;
 }
 </style> 

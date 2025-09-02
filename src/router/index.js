@@ -6,6 +6,7 @@ import Contact from '../views/Contact.vue'
 import WorkDetail from '../views/WorkDetail.vue'
 import ToolDetail from '../views/ToolDetail.vue'
 import ProfileSettings from '../views/ProfileSettings.vue'
+import ViewportTest from '../views/ViewportTest.vue'
 
 const routes = [
   {
@@ -42,6 +43,11 @@ const routes = [
     path: '/profile-settings',
     name: 'ProfileSettings',
     component: ProfileSettings
+  },
+  {
+    path: '/viewport-test',
+    name: 'ViewportTest',
+    component: ViewportTest
   }
 ]
 
